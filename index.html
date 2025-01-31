@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Three</title>
+    <link rel="icon" href="images/healthy.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- daisyUI and taliwind css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                common: '#179800',
+              }
+            }
+          }
+        }
+    </script>
+
+      <!-- main css link  -->
+       <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-[sora]">
+    <header>
+        <!-- header nav part  -->
+        <div class="navbar bg-base-100 px-3 md:px-16 py-7">
+            <div class="navbar-start">
+              
+              <a class="text-xl"><img src="images/logo-header.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden md:flex">
+              <ul class="menu menu-horizontal px-1 font-bold">
+                <li><a>Product</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="hidden md:flex md:items-center gap-8">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <a class="btn bg-white border-2 border-common text-common hover:text-white hover:bg-common">Log In</a>
+                  <a class="btn border-2 text-white  bg-common hover:bg-white hover:text-common hover:border-common">Register</a>
+
+              </div>
+
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-full"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- banner part  -->
+          <section class="text-center space-y-7">
+            <h1 class="font-extrabold text-3xl md:text-5xl text-black px-7" >Freshness <span class="text-common">You Can <br>count</span> On, Prices You'll Love!</h1>
+            <p class="text-gray-600 px-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+            <img class="md:w-2/4 mx-auto " src="images/hero-vegetables.png" alt="">
+          </section>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
