@@ -33,9 +33,9 @@
        <link rel="stylesheet" href="style.css">
 </head>
 <body class="font-[sora]">
-    <header>
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-white">
         <!-- header nav part  -->
-        <div class="navbar bg-base-100 px-3 md:px-16 py-7">
+        <div class="navbar bg-base-100 px-3 md:px-16 mb-10 border border-common md:border-none">
             <div class="navbar-start">
               
               <a class="text-xl"><img src="images/logo-header.png" alt=""></a>
@@ -58,18 +58,8 @@
 
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-full"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
+                  
+                <i class="fa-solid fa-bars text-common text-3xl"></i>
                 </div>
               </div>
             </div>
@@ -84,7 +74,47 @@
     </header>
 
     <main>
+        <!-- services  -->
+        <section class="my-24 px-4 md:px-24">
+            <h2 class="text-common text-3xl font-bold">Services</h2>
+            <div class="mt-10 md:flex gap-10">
+                <div class="card bg-[#EFEBE3] w-full shadow-xl p-8 mb-7">
+                    <div class="avatar">
+                        <div class="bg-white w-24 rounded-full p-2 mx-auto">
+                          <img class="" src="images/service.png" />
+                        </div>
+                      </div>
+                    <div class="card-body md:p-0 md:py-7 text-center">
+                      <h3 class="text-xl font-bold text-center">24/7 Services</h3>
+                      <p class="text-gray-500">We are ready 24/7 for your service. So, feel free and ask what you want.</p>
+                    </div>
+                  </div>
 
+                  <div class="card bg-[#EFEBE3] w-full shadow-xl p-8 mb-7">
+                    <div class="avatar">
+                        <div class="bg-white w-24 rounded-full p-2 mx-auto">
+                          <img class="" src="images/delivery.png" />
+                        </div>
+                      </div>
+                    <div class="card-body md:p-0 md:py-7 text-center">
+                      <h3 class="text-xl font-bold text-center">Fast Delivery</h3>
+                      <p class="text-gray-500 ">We are the world fastest delivery company. Within 1 hour we delivered your product</p>
+                    </div>
+                  </div>
+
+                  <div class="card bg-[#EFEBE3] w-full shadow-xl p-8 mb-7">
+                    <div class="avatar">
+                        <div class="bg-white w-24 rounded-full p-2 mx-auto">
+                          <img class="" src="images/healthy.png" />
+                        </div>
+                      </div>
+                    <div class="card-body md:p-0 md:py-7 text-center">
+                      <h3 class="text-xl font-bold text-center">Healthy Products</h3>
+                      <p class="text-gray-500">It's 100% healthy. You Will never found product pure and healthy like us.</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
 
     <footer>
