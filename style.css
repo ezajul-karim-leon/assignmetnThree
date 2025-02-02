@@ -1,0 +1,62 @@
+#header-content{
+    position: relative;
+
+}
+#header-content #animation{
+    position: relative;
+}
+
+#header-content #animation::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    border-left: 2px solid;
+    background: white;
+    animation: animate 2s steps(12) infinite;
+}
+
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+
+
+
+
+/* #header-content #animation::before{
+    content: '';
+    animation: words 20s infinite;
+}
+#header-content #animation::after{
+    content: " ";
+    width: 0;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;  
+    
+} */
+
+/* @keyframes cursor {
+    to{
+        border-right: 3px solid;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+@keyframes typing {
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+} */
